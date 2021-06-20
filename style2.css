@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    
+  }
+  .box{
+	background-color: aquamarine;
+  }
+
+
+.imgresize{
+    height:200px
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 50%;
+  }
+
+  #header{
+	color: #fff;
+	background: #e74c3c; 
+}
+
+#logo{
+	font-size: 2rem;
+	margin-top: 5px;
+}
+
+#menu{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#menu li{
+	display: inline-block;
+}
+
+#menu li a{
+	color: #fff;
+	padding: 15px 10px;
+	display: block;
+}
+
+#menu li a:hover{
+	background: #c0392b;
+}
